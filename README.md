@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Frontend.Simple-product-crud
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# React.js + Tailwind CSS + Bootstrap App
 
-In the project directory, you can run:
+    > Includes MERN Stack
 
-### `npm start`
+# Frontend.Simple-product-crud Test Case
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    > As I was new on frontend Test Case, so writing test case was incompleted.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    > But I can be confident for get proper ideas about Frontend Test case asap. 
 
-### `npm test`
+# Start the APP
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    > first clone Backend repo -  https://github.com/juniorEdris/Backend.Crud.Nodejs.git
 
-### `npm run build`
+    > # create a .env file and paste these global variables
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+        PORT_NUMBER = 5000
+        TEST_PORT_NUMBER = 5000
+        NODE_ENV = local
+        MONGO_URL_DATABASE_NAME = crudapp
+        MONGO_TEST_DATABASE_NAME = crudapp_testcase
+        JWT_SECRET = crud_mern_app_splash
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    > run npm/yarn install for install all the necessary dipendencies
+    
+    > run npm/yarn start for starting the express server
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    > then clone Frontend repo https://github.com/juniorEdris/Frontend.Sample-crud.git
 
-### `npm run eject`
+    > # create a .env file and paste these global variables
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+        API_DOMAIN = http://localhost:5000
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    > run npm/yarn start to start the app.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    > Wallaah! APP is ready to test.
+ 
